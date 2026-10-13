@@ -65,12 +65,12 @@ That is the whole product in one test.
 ## 🚀 Install in 30 seconds
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/gameguard.git
+git clone https://github.com/apsethicsbowl20026-collab/game-guard.git
 ```
 
 1. Open `chrome://extensions`
 2. Turn on **Developer mode**
-3. Click **Load unpacked** and pick the `gameguard` folder
+3. Click **Load unpacked** and pick the `game-guard` folder
 4. Pin the 🛡️ icon. **ON** (red) means protected, **OFF** (green) means unlocked.
 
 **Blocking starts instantly.** There is no account, no setup and no server required, because GameGuard ships with a built-in fail-closed policy. Works on Chrome 111+, Edge, Brave and other Chromium browsers.
@@ -202,7 +202,7 @@ Policy changes are versioned, and browsers pick them up **within 30 seconds**.
 <summary><b>Project structure</b></summary>
 
 ```
-gameguard/
+game-guard/
 ├── manifest.json       MV3 manifest
 ├── background.js       Sync, rules, unlock, reports
 ├── block-webgl.js      MAIN-world WebGL blocker
@@ -211,6 +211,7 @@ gameguard/
 ├── blocked.html / .js  Blocked page with unlock form
 ├── popup.html / .js    Toolbar popup
 ├── ui.css              Shared dark UI
+├── docs/               Screenshots
 └── icon.png
 ```
 
@@ -282,12 +283,12 @@ Look for [`good first issue`](../../labels/good%20first%20issue) labels. Easy wi
 
 ## 📣 Share it
 
-Know a parent, teacher or IT admin who fights this battle? [Post it on X](https://twitter.com/intent/tweet?text=GameGuard%3A%20a%20Chrome%20extension%20that%20blocks%203D%20browser%20games%20by%20disabling%20WebGL%20and%20WebGPU%20instead%20of%20chasing%20URLs&url=https%3A%2F%2Fgithub.com%2FYOUR-USERNAME%2Fgameguard) or send them the link.
+Know a parent, teacher or IT admin who fights this battle? [Post it on X](https://twitter.com/intent/tweet?text=GameGuard%3A%20a%20Chrome%20extension%20that%20blocks%203D%20browser%20games%20by%20disabling%20WebGL%20and%20WebGPU%20instead%20of%20chasing%20URLs&url=https%3A%2F%2Fgithub.com%2Fapsethicsbowl20026-collab%2Fgame-guard) or send them the link.
 
 ## ⭐ Star history
 
-<a href="https://star-history.com/#YOUR-USERNAME/gameguard&Date">
-  <img src="https://api.star-history.com/svg?repos=apsethicsbowl20026-collab/gameguard&type=Date" alt="Star history chart" width="600" />
+<a href="https://star-history.com/#apsethicsbowl20026-collab/game-guard&Date">
+  <img src="https://api.star-history.com/svg?repos=apsethicsbowl20026-collab/game-guard&type=Date" alt="Star history chart" width="600" />
 </a>
 
 ## 📄 License
