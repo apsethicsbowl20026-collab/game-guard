@@ -287,12 +287,12 @@ Know a parent, teacher or IT admin who fights this battle? [Post it on X](https:
 ## ⭐ Star history
 
 <a href="https://star-history.com/#YOUR-USERNAME/gameguard&Date">
-  <img src="https://api.star-history.com/svg?repos=YOUR-USERNAME/gameguard&type=Date" alt="Star history chart" width="600" />
+  <img src="https://api.star-history.com/svg?repos=apsethicsbowl20026-collab/gameguard&type=Date" alt="Star history chart" width="600" />
 </a>
 
 ## 📄 License
 
-[MIT](LICENSE) © YOUR NAME
+[MIT](LICENSE) © Arin & Time
 
 <div align="center">
 
