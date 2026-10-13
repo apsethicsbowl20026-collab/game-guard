@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="ui.css" />
+    <style>
+      body { width: 320px; padding: 14px; }
+      .row { display: flex; justify-content: space-between; align-items: center; }
+      .small { font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <h2>🛡️ GameGuard</h2>
+      <span id="status" class="pill on">…</span>
+    </div>
+    <p id="desc" class="muted small" style="margin: 4px 0 12px"></p>
+
+    <div class="card" id="unlockCard">
+      <strong>Unlock 3D games</strong>
+      <form id="form">
+        <label for="pw">Admin password</label>
+        <input id="pw" type="password" autocomplete="current-password" required />
+        <label for="min">Duration</label>
+        <select id="min">
+          <option value="15">15 minutes</option>
+          <option value="30" selected>30 minutes</option>
+          <option value="60">1 hour</option>
+          <option value="120">2 hours</option>
+          <option value="240">4 hours</option>
+          <option value="480">8 hours</option>
+        </select>
+        <button type="submit">Unlock</button>
+        <div id="err" class="err"></div>
+      </form>
+    </div>
+
+    <button id="sync" class="secondary">Refresh policy</button>
+    <p class="muted small" style="margin-top: 10px">
+      <span id="sync-info"></span><br />
+      <a id="admin" href="#" target="_blank">Open admin panel</a>
+    </p>
+    <script src="popup.js"></script>
+  </body>
+</html>

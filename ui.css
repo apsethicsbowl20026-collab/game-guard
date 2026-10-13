@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0b1120;
+  color: #e2e8f0;
+}
+h1, h2 { margin: 0 0 6px; color: #fff; }
+.muted { color: #94a3b8; }
+.card {
+  background: #111a2e;
+  border: 1px solid #1e293b;
+  border-radius: 14px;
+  padding: 16px;
+}
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 10px; border-radius: 999px; font-weight: 600; font-size: 12px;
+}
+.pill.on { background: rgba(220, 38, 38, .15); color: #fca5a5; border: 1px solid rgba(220,38,38,.4); }
+.pill.off { background: rgba(22, 163, 74, .15); color: #86efac; border: 1px solid rgba(22,163,74,.4); }
+label { display: block; font-size: 12px; color: #94a3b8; margin: 10px 0 4px; }
+input, select {
+  width: 100%; padding: 9px 11px; border-radius: 9px;
+  border: 1px solid #334155; background: #0b1120; color: #fff; font: inherit;
+}
+input:focus, select:focus { outline: 2px solid #6366f1; border-color: transparent; }
+button {
+  margin-top: 12px; width: 100%; padding: 10px; border: 0; border-radius: 9px;
+  background: #6366f1; color: #fff; font: 600 14px system-ui, sans-serif; cursor: pointer;
+}
+button:hover { background: #4f46e5; }
+button.secondary { background: #1e293b; }
+.err { color: #fca5a5; font-size: 13px; margin-top: 8px; min-height: 18px; }
+.ok { color: #86efac; }
+a { color: #a5b4fc; }
