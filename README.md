@@ -13,7 +13,7 @@
 [![Fails closed](https://img.shields.io/badge/policy-fails%20closed-dc2626)](#-how-it-works)
 [![No trackers](https://img.shields.io/badge/trackers-none-16a34a)](#-privacy)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/apsethicsbowl20026-collab/gameguard?style=social)](https://github.com/apsethicsbowl20026-collab/gameguard)
+[![Stars](https://img.shields.io/github/stars/apsethicsbowl20026-collab/game-guard?style=social)](https://github.com/apsethicsbowl20026-collab/game-guard)
 
 [**Install**](#-install-in-30-seconds) · [**10-second test**](#-prove-it-in-10-seconds) · [**How it works**](#-how-it-works) · [**FAQ**](#-faq) · [**Contribute**](#-contributing)
 
